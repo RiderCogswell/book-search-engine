@@ -44,8 +44,8 @@ function App() {
               element={<SearchBooks />} 
             />
             <Route 
-              path='/saved' 
-              component={<SavedBooks />} 
+              path='/saved'
+              element={<SavedBooks />} 
             />
             <Route 
               route='*'
